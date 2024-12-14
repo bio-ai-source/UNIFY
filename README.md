@@ -12,5 +12,4 @@ Contain the benchmark dataset and biological knowledge of drugs and targets
 DIANA is tested to work under Python 3.10.14  
 The required dependencies for DIANA are Keras, PyTorch, TensorFlow, numpy, pandas, scipy, and scikit-learn.
 
-### Contacts
 
