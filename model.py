@@ -24,9 +24,9 @@ class ECALayer(nn.Module):
         y = y.squeeze(1)  # [num_nodes, channels]
         y = self.dropout(y)  # Dropout after BatchNorm
         return x * y + residual
-class DIANA(nn.Module):
+class UNIFY(nn.Module):
     def __init__(self, nfeat, nhid, k_size, nclass, dropout, heads, layers):
-        super(DIANA, self).__init__()
+        super(UNIFY, self).__init__()
         self.layers = layers
         self.convs = nn.ModuleList()
         self.bns = nn.ModuleList()
