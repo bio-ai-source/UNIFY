@@ -10,7 +10,7 @@ from lightgbm import LGBMClassifier
 # from dataset import dataset
 import warnings
 from utils import *
-from model import DIANA
+from model import UNIFY
 
 SEED = 123
 np.random.seed(SEED)
@@ -47,7 +47,7 @@ k_size = 7
 nclass = 64
 heads = 32
 layers = 3
-model = DIANA(nfeat=features.shape[1], nhid=64, k_size=k_size, nclass=nclass, dropout=0.5, heads=heads,
+model = UNIFY(nfeat=features.shape[1], nhid=64, k_size=k_size, nclass=nclass, dropout=0.5, heads=heads,
                    layers=layers).to(device)
 model.eval()
 with torch.no_grad():
