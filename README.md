@@ -9,7 +9,7 @@ Contain the benchmark dataset and biological knowledge of drugs and targets
     - python main.py 
 
 ### Requirements
-DIANA is tested to work under Python 3.10.14  
+UNIFY is tested to work under Python 3.10.14  
 The required dependencies for UNIFY are Keras, PyTorch, TensorFlow, numpy, pandas, scipy, and scikit-learn.
 
 
