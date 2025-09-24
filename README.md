@@ -1,15 +1,22 @@
 # UNIFY
 ## Paper "UNIFY: Unified Co-Attention on Hierarchical Biological Networks for Enhanced Drug–Target Interaction Prediction"
+
+
 ### 'data' directory
 Contain the benchmark dataset and biological knowledge of drugs and targets
-
-### 'src' directory
 1. Contain source codes
-2. To predict DTIs by UNIFY, run
-    - python main.py 
++ 'Luo/' dataset
++ + dsdsd 
+### 'src' directory
++ `main.py` : load dataset and predict DTI.
++ `model.py` : UNIFY model.
+  
+### Quick start
 
-### Requirements
-UNIFY is tested to work under Python 3.10.14  
-The required dependencies for UNIFY are Keras, PyTorch, TensorFlow, numpy, pandas, scipy, and scikit-learn.
+```bash
+conda create -n unify python=3.10
+pip install requirements.txt -r
+python main.py
+```
 
 
